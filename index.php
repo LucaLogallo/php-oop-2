@@ -82,14 +82,49 @@
 
 <?php 
 
-  require_once __DIR__ . "./classes/User.php";
+  require_once __DIR__ . "/classes/User.php";
+  require_once __DIR__ . "/classes/Sconto.php";
 
+  $giuseppe = new User("giuseppe", "verdi", "giusVerd", "ciao123", "no", 45, 1234546);
+
+  var_dump($giuseppe);
+
+
+  /* $prodotti = [new Prodotto("cocacola", 1.5),new Prodotto("cocacola0", 1.5)];
+  $user -> add($prodotti)
+
+
+
+  <h3> Ciao <?php echo $giuseppe->nome ?> </h3>
+  <h3> Ciao <?php echo $giuseppe->cognome ?> </h3>
+  <h3> Ciao <?php echo $giuseppe->username ?> </h3>
+  <h3> Ciao <?php echo $giuseppe->password ?> </h3>
+  <h3> Ciao <?php echo $giuseppe->premium ?> </h3>
+  <h3> Ciao <?php echo $giuseppe->eta ?> </h3>
+  <h3> Ciao <?php echo $giuseppe->codice_sconto ?> </h3>
+ */
 
 ?>
 
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h1> cal_info</h1>
+  
+  
+</body>
+</html>
 
 
+
+ 
 
 
 
