@@ -1,10 +1,9 @@
 <?php 
 
-  require_once __DIR__ . "./Sconto.php";
+  require_once __DIR__ . "/Sconto.php";
   
   class User{
 
-    use Sconto;
     public $nome;
     public $cognome;
     public $username;
